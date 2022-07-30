@@ -1,0 +1,229 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #282828;
+}
+h1{
+    margin: 1.5%;
+}
+h3{
+    font-size: 90px;
+    color: dodgerblue;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+p{
+    color: #5c5c5c;    
+    line-height: 28px;
+}
+.landing{
+    height: 100vh;
+    background: url(images/pexels-neosiam-618116.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+}
+.flex-2{
+    display: flex;
+}
+.landing-left{
+    width: 100%;
+    height: 100vh;
+}
+.landing-right{
+    width: 100%;
+    height: 80vh;
+    padding-top: 20vh;
+}
+.black{
+    margin-top: 0.5vh;
+    background: rgb(27, 25, 25);
+    color: #fff;
+    line-height: 6vh;
+    font-size: 20px;
+    width: 55%;
+    letter-spacing: 3.5px;
+    transform: rotateZ(-5deg);
+    cursor: pointer;
+}
+b{
+    font-weight: 800;
+    color: dodgerblue;
+}
+.points{
+    margin-top: 10vh;
+    text-align: left;
+    width: 55%;
+    color: #fff;
+    line-height: 10vh;
+    font-weight: 600;
+    background: rgba(10, 10, 10, 0.8);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.point{
+    margin-left: 5%;
+    cursor: pointer;
+}
+.Services{
+    padding-top: 25vh;
+    padding-bottom: 5vh;
+}
+.sec{
+    width: 100%;
+}
+.card{
+    padding-top: 2vh;
+    height: 23vh;
+    background: #1c95e0;
+    width: 80%;
+    cursor: pointer;
+}
+.card:hover{
+    border-style: solid;
+    border-color: #0465a1;
+    border-width: 0px 4px 0px 0px;
+    transition: .25s;
+}
+.card b{
+    color: #fff;
+}
+.event{
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.evnt{
+    background: rgb(233, 231, 231);
+    margin-top: 15px;
+    height: auto;
+    display: flex;
+}
+h2{
+    font-size: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+h2:hover{
+    border-style: solid;
+    border-color: #0465a1;
+    border-width: 0px 0px 0px 4px;
+    transition: .5s;
+}
+.chess{
+    width: 165px;
+    color: #282828;
+    font-size: 15px;
+    border-style: solid;
+    border-color: #0465a1;
+    border-width: 0px 0px 0px 4px;
+    cursor: pointer;
+}
+.chess:hover{
+    border-width: 0px 4px 0px 0px;
+    transition: .25s;
+}
+ul{
+    margin-top: 25px;
+    text-align: left;
+}
+li{
+    margin-top: 15px;
+    color: #5c5c5c;
+}
+.button{
+    width: 80%;
+    background: dodgerblue;
+    color: #fff;
+    font-weight: bold;
+    line-height: 6vh;
+}
+.reaction{
+    margin-top: 80px;
+}
+.reaction .chess{
+    width: 250px;
+}
+.reaction h2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.reaction p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.name{
+    font-size: 24px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.events_head{
+    width: 270px;
+}
+.pay{
+    margin-top: 75px;
+}
+.pay_p{
+    width: 255px;
+}
+.payp{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.payside{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+.paybox{
+height: 60vh;
+width: 100%;
+box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 40%);   
+}
+.pay_h2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer{
+    margin-top: 75px;
+    padding-bottom: 60px;
+    padding-top: 0px;
+}
+.footer p{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 45px;
+}
+.footer a{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 450px;
+    color: #0465a1;
+}
+.great{
+    margin-top: 35px;
+    background: dodgerblue;
+}
+.great h2{
+    font-size: 50px;
+    line-height: 70px;
+    color: #fff;
+    margin-bottom: 0;
+}
+@media(max-width:768px){
+    .flex-2, .evnt{display: block;}
+    .black, .points{
+        width: 85%;
+    }
+    .knw{
+        font-size: 32px;
+    }
+    li{
+        margin-left: -15%;
+    }
+}
