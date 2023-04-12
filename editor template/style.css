@@ -1,0 +1,406 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #111;
+    font-family: "futura-pt", sans-serif;
+    cursor: default;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.strt{
+    height: 100vh;
+    background: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.landing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.landing-text{
+    font-size: 85px;
+}
+.landing-text b{
+    color: #EC3158;
+}
+.span1{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3s;   
+}
+.span2{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.2s;   
+}
+.span3{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.7s;   
+}
+.span4{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.9s;   
+}
+.span5{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4s;   
+}
+.span6{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.1s;   
+}
+.span7{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.2s;   
+}
+.span8{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.28s;   
+}
+.span9{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.5s;   
+}
+.span10{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.62s;   
+}
+.span11{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.97s;   
+}
+.span12{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.07s;   
+}
+.span13{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.14s;   
+}
+.span14{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.21s;   
+}
+@keyframes ani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.three-pics{
+    height: 100vh;
+}
+.headtit{
+    line-height: 10vh;
+    padding-left: 20px;
+    color: #EC3158;
+}
+.sec1{
+    display: inline-block;
+    height: 84vh;
+    width: 33%;
+    z-index: 0;
+}
+.picar{
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+.img{
+    width: 75%;
+    height: 75vh;
+    background: #222;
+    margin-top: 4.5vh;
+    border: 2.5px dotted #555;
+    z-index: 2;
+}
+.hr{
+    position: absolute;
+    margin-top: 49.5vh;
+    width: 100%;
+    height: 1.5px;
+background-color: #111;
+    border-top: 2.5px dotted #555;
+    z-index: 1;
+}
+img{
+    width: 100%;
+    height: 75vh;
+}
+.servcbox{
+    margin-top: 7.5vh;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+    height: auto;
+}
+.service .sec1{
+    height: auto;
+}
+.servcbox:hover{
+    color: #EC3158;
+    transition: .7s;
+}
+.look .sec1{
+    width: 24.5%;
+    height: auto;
+}
+.look1{
+    display: inline;
+}
+.orderbox{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: auto;
+    background: #222;
+    display: flex;
+}
+.orderleft{
+    width: 40%;
+    height: auto;
+}
+.orderright{
+    width: 59%;
+    height: auto;
+padding-bottom: 15px;
+}
+.social{
+    margin-left: 30%;
+    width: 40%;
+    height: 7vh;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+    background: #222;
+    display: flex;
+}
+.web, .dev{
+    width: 20%;
+}
+.bottomnav{
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.bottomnav a{
+    text-decoration: none;
+    color: #fff;
+}
+.web-flex{
+text-align: center;
+}
+.editor{
+    width: 100%;
+    height: 100%;
+}
+.orderright p{
+    font-size: 20px;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+.utr{
+    margin-top: 20%;
+}
+.orderright p b{
+    color: #EC3158;
+}.click{
+    background: #EC3158;
+    line-height: 56px;
+    width: 180px;
+    margin-left: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+.logo{
+    height: 100%;
+    width: auto;
+    margin-left: 12.5%;
+}
+i{
+    font-size: 155px;
+}
+.servcbox p{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+@media (max-width: 768px){
+    .orderbox{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .orderleft{
+        width: 100%;
+        height: auto;
+    }
+    .orderright{
+        width: 100%;
+        height: auto;
+    }
+    .look1{
+        display: block;
+    }
+    .look .sec1{
+        width: 49.3%;
+        height: auto;
+    }
+    .three-pics{
+        display: none;
+    }
+    .land-name{
+        font-size: 60px;
+    }
+    .service .sec1{
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .servcbox{width: 100%;
+    margin: 0;}
+    .orderright p{
+        font-size: 15px;
+        margin-left: 8%;
+        margin-right: 5%;
+    }
+    .footer{
+        display: block;
+    }
+    .web, .dev, .bottomnav{
+        width: 100%;
+    }
+    .social{
+        margin-left: 0%;
+        width: 100%;
+        height: 7vh;
+    }
+    i{
+        font-size: 105px;
+    }
+
+}
+@media (max-width: 425px){
+    .service .sec1{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 375px){
+    .logo{
+        height: 100%;
+        width: auto;
+        margin-left: 9%;
+    }
+}
+.skillbox{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 0;
+}
+.skillbox p{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top:-25px;
+}
+.skill{
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ff1044;
+    border-radius: 2px;
+}
+.skill_level{
+    background: #EC3158;
+    height: 10px;
+}
+.skill1{
+    animation: animate1 1s linear forwards;
+}
+.skill2{
+    animation: animate2 1s linear forwards;
+}
+.skill3{
+    animation: animate3 1s linear forwards;
+}
+.skill4{
+    animation: animate4 1s linear forwards;
+}
+.skill5{
+    animation: animate5 1s linear forwards;
+}
+.skill_area{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@keyframes animate1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes animate2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 77%;
+    }
+}@keyframes animate3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}@keyframes animate4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 82%;
+    }
+}@keyframes animate5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
