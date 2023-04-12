@@ -1,0 +1,67 @@
+.freelance{
+    background: url(images/freelancebg.jpg);
+}
+.free-flex{
+    display: flex;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.free-flex .left{
+    width: 50%;
+}
+.free-flex .right{
+    width: 50%;
+}
+
+.left .orderbutton{
+    margin-top: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 7.5%;
+    width: 260px;
+    line-height: 65px;
+    background: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right .orderbutton{
+    margin-top: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 7.5%;
+    width: 260px;
+    line-height: 65px;
+    background: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+.right img{
+    width: 50%;
+    
+}
+@media(max-width: 768px) {
+    .landing{
+        display: none;
+    }
+    .free-flex{
+        display: block;
+    }
+    .free-flex .left{
+        width: 100%;
+    }
+    .free-flex .right{
+        width: 100%;
+    }
+    .left .orderbutton{
+        display: none;
+    }
+    .right .orderbutton{
+        display: block;
+    }
+    .right img{
+        width: 85%;
+    }
+}

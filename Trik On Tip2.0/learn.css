@@ -1,0 +1,42 @@
+.learn{
+    background: #fff;
+    overflow: hidden;
+}
+.learn-left{
+    display: inline-block;
+    width: 35%;
+    background: #fff;
+}
+.learn-right{
+    display: inline-block;
+    width: 64%;
+    background: rgb(59, 238, 154);
+    transform: skewX(15deg);
+}
+
+.learn p{
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 60px;
+    transform: skewX(-15deg);
+}
+.learn-left p{
+    font-size: 20px;
+    color: #000;
+    transform: skewX(0deg);
+    margin-left: 10%;
+    margin-right: 8%;
+}
+.learn-left h2{
+    margin-left: 8%;
+}
+.learn-left a{
+    margin-left: 35%;
+}
+.learn h1{
+    font-size: 200px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    transform: skewX(-15deg);
+    margin-bottom: 15%;
+}

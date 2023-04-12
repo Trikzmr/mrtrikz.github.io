@@ -1,0 +1,160 @@
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+}
+.navbar-brand{
+    color: #fff;
+}
+.nav-item a{
+    color:#fff;
+    -webkit-transition: .5s;
+}
+.nav-item a:hover{
+    color: #EC3158;
+    transition: .5s;
+}
+.landing-flex{
+    display: flex;
+}
+.landing-left{
+    width: 60%;
+}
+p{
+    margin-top: 40%;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+}
+
+.right-flex{
+    display: flex;
+}
+.rone{
+    margin-left: 310px;
+    margin-right: -40px;
+}
+.rtwo{
+    margin-left: 120px;
+    margin-right: -120px
+}
+.select i{
+    color: #666;
+}
+.select{
+    width: 260px;
+    height: 137.5px;
+    margin: 5px;
+    line-height: 160px;
+    background: #222;
+    transform: skewX(-16deg);
+    -webkit-transition: background 1s;
+}
+.select i{
+    transform: skewX(16deg);
+    -webkit-transition: color 1s;
+    -webkit-transition: font-size 1s;
+}
+.select:hover {
+    background: #334;
+    transition: 0.5s;
+}
+.select:hover i{
+    color: red;
+    font-size: 66px;
+    transition: 0.5s;
+}
+.landing2{
+    height: 100vh;
+    background: url(back.jpg);
+    background-size: cover;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+}
+.landing-text{
+    font-size: 85px;
+}
+.landing-text b{
+    color: #EC3158;
+}
+.span1{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3s;   
+}
+.span2{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.2s;   
+}
+.span3{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.7s;   
+}
+.span4{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 3.9s;   
+}
+.span5{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4s;   
+}
+.span6{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.1s;   
+}
+.span7{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.2s;   
+}
+.span8{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.28s;   
+}
+.span9{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.5s;   
+}
+.span10{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.62s;   
+}
+.span11{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 4.97s;   
+}
+.span12{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.07s;   
+}
+.span13{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.14s;   
+}
+.span14{
+    opacity: 0;
+    animation: ani .2s forwards;
+    animation-delay: 5.21s;   
+}
+@keyframes ani{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@font-face {
+    font-family: lob;
+    src: url(fonts/lob.ttf);
+}
+
